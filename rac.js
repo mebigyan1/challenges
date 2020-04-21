@@ -2,7 +2,6 @@ const requests = require('request');
 const cheerio = require('cheerio');
 const fs = require('fs');
 const _ = require('underscore');
-const qs = require('querystring');
 
 const request = requests.defaults({jar: true});
 
